@@ -1,0 +1,50 @@
+/* Formatando todo o documento */
+*{
+margin: 0;
+padding: 0;
+}
+/* Formatando a cor do fundo  */
+.fundo{
+    background-color:burlywood;
+    height: 100vh;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+/* Alinhando  a tag div no meio e colocando uma cor de fundo  */
+.calculadora{
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+/* Formatando os botãos da calculadora altura,largura,fonte,cor e adiconando um cursor para quando passar o mouse o usuario perceber o movimento */
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color:white
+}
+/* Colocando o cursor com a cor azul*/
+.botao:hover{
+    background-color:blue;
+}
+
+/* chamando o id resultado e formatando-o */
+#resultado{
+    background-color:white;
+    width: 207px;
+    height: 30px;
+    margin:5px
+    font-size: 25px;
+    color:black;
+    text-align:right;
+    padding: 5px;
+}
